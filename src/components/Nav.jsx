@@ -4,15 +4,15 @@ export default function Nav () {
     return (
         <div className='nav'>
             <Link to='/'>
-                <div>homepage</div>
+                <div>Home</div>
             </Link>
 
             <Link to='/characters'>
-                <div>characters</div>
+                <div>Characters</div>
             </Link>
 
             <Link to='/about'>
-                <div>about page</div>
+                <div>About Page</div>
             </Link>
         </div>
     )
